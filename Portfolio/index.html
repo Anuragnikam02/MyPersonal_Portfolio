@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+<body>
+    <header class="header">
+        <a href="#" class="logo"><span>Anu</span>rag</a>
+        <nav class="navbar">
+            <a href="#" class="active">Portfolio</a>
+            <a href="#experience">Experience</a>
+            <a href="#projects">Projects</a>
+            <a href="#skills">Skills</a>
+            <a href="#education">Education</a>
+        </nav>
+        <a href="#contact-form" class="contact">Contact Me</a>
+    </header>
+
+
+
+
+
+    <!-- Main Home Page Portfolio -->
+    <section class="home">
+        <div class="home-content">
+            <h3>Hi</h3>
+            <h1>I'm <span>a Java Full Stack Developer</span></h1>
+            <p id="p1">Passionate about Java and web development, I’m stepping into the tech world as a full-stack developer with a fresh perspective and an eagerness to learn. Excited to transform innovative ideas into real-world solutions, I’m dedicated to building seamless, impactful applications that bridge creativity and functionality. Ready to contribute and grow in a team-oriented environment, I bring a drive for continuous improvement and a commitment to delivering quality code.</p>
+            <div class="btn-box">
+                <a href="#contact-form" class="btn-1">Hire Me</a>    
+                <a href="#experience" class="btn-2">Experience</a>
+
+                <!-- <button class="btn-2">Experience</button> -->
+            </div>
+        </div>
+        <div class="img-box">
+            <img src="AVN1.jpeg" alt="">
+        </div>
+    </section>
+
+
+
+
+    <!-- About Me-->
+
+    <section class="about">
+        <div class="about-img">
+            <img src="AVN1.jpeg" alt="">
+        </div>
+
+        <div class="about-content">
+            <h2 class="heading">About <span>Me</span></h2>
+            <h3>Java Full Stack <span>Developer</span></h3>
+            <p>As a recent graduate stepping into the professional world, I’m eager to translate my academic knowledge into practical experience within a dynamic organization. With a foundation in core programming languages and development methodologies, I am passionate about expanding my skill set and contributing to impactful projects. My goal is to bring dedication, curiosity, and a commitment to continuous improvement to a team-oriented environment, where I can grow as a professional while adding value to my workplace.</p>
+            <a href="#experience" class="btn-2">Experience</a>
+        </div>
+    </section>
+
+
+
+
+
+     <!--  Experience Section   -->
+
+     <section class="experience" id="experience">
+        <h2 class="heading">My <span>Experience</span></h2>
+        <div class="experience-container">
+            <div class="experience-box">
+                <h3>Oasis Infobyte</h3>
+                <p>Completed one month internship as a Web Development and Designing Intern at Oasis Infobyte. Worked with HTML, CSS, JavaScript to create responsive and interactive web pages.</p>
+            </div>
+            <div class="experience-box">
+                <h3>Let's Grow More</h3>
+                <p>Completed one month internship as a Web Developer. As an intern at LGM, I contributed to web development projects using HTML, CSS, and JavaScript, ensuring responsive design.</p>
+            </div>
+            <!-- <div class="experience-box">
+                <h3>Database Management</h3>
+                <p>Skilled in working with SQL and NoSQL databases like MySQL, PostgreSQL, and MongoDB.</p>
+            </div> -->
+        </div>
+    </section>
+
+
+
+
+
+    <!-- Projects Section -->
+<section class="projects" id="projects">
+    <h2 class="heading">My <span>Projects</span></h2>
+    <div class="projects-container">
+        <!-- Project 1 -->
+        <div class="project-box">
+            <h3>Bot Detection in Twitter Using Machine Learning</h3>
+            <p>This project leverages machine learning and network analysis to develop a bot detection system for Twitter, using technologies such as Python, scikit-learn, and TensorFlow. Key techniques include supervised and unsupervised learning models, with feature engineering focused on behavior, network, and content analysis to classify bot activity. </p>
+            <a href="#" class="project-link">Learn More</a>
+        </div>
+        <!-- Project 2 -->
+        <div class="project-box">
+            <h3>Personal Portfolio Website</h3>
+            <p> This project is a responsive personal portfolio website built using HTML, CSS, and JavaScript. The portfolio showcases projects, skills, and experience, with interactive elements for a dynamic user experience. Key features include a responsive design for smooth scrolling, and animated transitions. The portfolio aims to provide a professional online presence and serve as a showcase for web development skills.</p>
+            <a href="#" class="project-link">Learn More</a>
+        </div>
+        <!-- Project 3 -->
+        <div class="project-box">
+            <h3>Employee Management System</h3>
+            <p>This project is an Employee Management System developed using Core Java, JDBC, and MySQL Workbench for backend database management. Key features include adding, updating, and removing employee records, viewing employee details, and managing department assignments. The system enables efficient data storage, retrieval, and manipulation, enhancing HR operations and administrative efficiency.</p>
+            <a href="#" class="project-link">Learn More</a>
+        </div>
+
+
+        <!-- "See More Projects" Button -->
+        <div class="see-more-box">
+            <button id="see-more-btn" onclick="showMoreProjects()">See More Projects</button>
+        </div>
+
+        <!-- Hidden Projects (Initially Hidden) -->
+        <div class="project-box hidden-project">
+            <h3>Calculator</h3>
+            <p>This project is a simple, interactive calculator built using HTML, CSS, and JavaScript. The calculator performs basic arithmetic operations such as addition, subtraction, multiplication, and division. Key features include a responsive layout, clear display, and real-time calculation updates. This project demonstrates front-end development skills, providing a functional tool with a clean, user-friendly interface.</p>
+            <a href="#" class="project-link">Learn More</a>
+        </div>
+        <div class="project-box hidden-project">
+            <h3>Travel Fact File</h3>
+            <p>A web-based project showcasing a curated collection of travel insights and facts about various destinations visited in September 2024. This project, built with HTML and CSS, provides a clean and engaging layout for exploring travel details, with user-friendly navigation and visually appealing styling to enhance the browsing experience.</p>
+            <a href="#" class="project-link">Learn More</a>
+        </div>
+    </div>
+</section>
+
+
+
+        <!-- Skills -->
+
+        <section class="skills" id="skills">
+            <h2 class="heading">My <span>Skills</span></h2>
+            <div class="skills-container">
+                <div class="skill-box">Java</div>
+                <div class="skill-box">JDBC</div>
+                <div class="skill-box">JavaScript</div>
+                <div class="skill-box">CSS</div>
+                <div class="skill-box">HTML</div>
+                <div class="skill-box">MYSQL</div>
+                <div class="skill-box">GitHub</div>
+                <div class="skill-box">Git</div>
+                <!-- Repeat the skill boxes as needed for a continuous scroll effect -->
+            </div>
+        </section>
+        
+
+        
+
+
+            <!-- Education -->
+
+            <section class="education" id="education">
+                <h2 class="heading"><span>My </span>Education</h2>
+                <div class="education-container">
+                    <div class="education-box">
+                        <h3>Bachelor of Engineering in Computer</h3>
+                        <p><b>Pune University <br> Graduation Year : </b>2024</p>
+                        <p>Graduated with a focus on software development, algorithms, and data structures. Key coursework includes Database Management, Object-Oriented Programming, and Web Development.</p>
+                    </div>
+                    <div class="education-box">
+                        <h3>Higher Secondary School</h3>
+                        <p><b>Dr.B.Ambedkar College <br> Passout : </b>2020</p>
+                        <p>Completed with a major in Science, covering Physics, Chemistry, Mathematics, and Computer Science.</p>
+                    </div>
+                    <div class="education-box">
+                        <h3>Secondary School</h3>
+                        <p><b>Samarth Ramdas Vidyalaya <br> Passout : </b>2018</p>
+                        <p>Completed 10th grade in an English medium school. Acquired foundational knowledge across various subjects, developed strong language skills, and built a solid academic base that prepared me for further studies</p>
+                </div>
+            </section>
+        
+
+
+
+            <!-- Contact Form -->
+    <section class="contact-form" id="contact-form">
+        <h2 class="contact-me">Contact <span>Me</span></h2>
+
+        <form action="#">
+            <div class="input-box">
+                <input type="text" placeholder="Full Name">
+                <input type="email" placeholder="Email">
+            </div>
+
+            <div class="input-box">
+                <input type="number" placeholder="Phone Number">
+                <input type="text" placeholder="Subject">
+            </div>
+
+            <textarea name="" id="" cols="30" rows="10" placeholder="Your Message"></textarea>
+            <input type="submit" value="Send Message" class="btn-1">
+        </form>
+    </section>
+
+
+
+
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="social">
+            <a href="https://www.facebook.com/anurag.nikam.908"><i class='bx bxl-facebook-circle'></i></a>
+            <a href="https://www.linkedin.com/in/anurag-nikam-15944320a/"><i class='bx bxl-linkedin-square' ></i></a>
+            <a href="https://github.com/Anuragnikam02"><i class='bx bxl-github' ></i></a>
+            <a href="https://www.instagram.com/anurag.nikam.5775/"><i class='bx bxl-instagram-alt' ></i></a>
+        </div>
+
+        <ul class="list">
+            <li>
+                <a href="#contact-form">FAQ</a>
+            </li>
+            <li>
+                <a href="#">About Me</a>
+            </li>
+            <li>
+                <a href="#contact-form">Contact</a>
+            </li>
+            <li>
+                <a href="#">Privacy Policy</a>
+            </li>
+        </ul>
+
+        <p class="copyright">© 2024 Anurag | All Rights Reserved</p>
+    </footer>
+
+
+
+<!-- for see more -->
+    <script>
+        function showMoreProjects() {
+            const hiddenProjects = document.querySelectorAll('.hidden-project');
+            hiddenProjects.forEach((project) => {
+                project.classList.toggle('show');
+            });
+        
+            const seeMoreBtn = document.getElementById('see-more-btn');
+            if (seeMoreBtn.innerText === "See More Projects") {
+                seeMoreBtn.innerText = "Show Less";
+            } else {
+                seeMoreBtn.innerText = "See More Projects";
+            }
+        }
+        </script>
+</body>
+</html>
